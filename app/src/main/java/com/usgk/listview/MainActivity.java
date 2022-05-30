@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                     intent.setData(Uri.parse("https://www.tutorialspoint.com/nodejs/index.htm"));
                     startActivity(intent);
                 }
-                else if (position == 17){
+                else {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
                     intent.setData(Uri.parse("https://www.tutorialspoint.com/bootstrap/index.htm"));
                     startActivity(intent);
